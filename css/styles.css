@@ -146,7 +146,8 @@ img {
 /*Hero-section*/
 
 .hero-section {
-  background-color: var(--headings-color);
+  background-color: rgba(46, 47, 66, 0.7);
+  background-image: url(/images/Hero-bg.jpg);
   padding: 188px 0;
 }
 
