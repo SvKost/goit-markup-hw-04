@@ -146,9 +146,11 @@ img {
 /*Hero-section*/
 
 .hero-section {
+  padding: 188px 0;
   background-color: rgba(46, 47, 66, 0.7);
   background-image: url(/images/Hero-bg.jpg);
-  padding: 188px 0;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .hero-title {
