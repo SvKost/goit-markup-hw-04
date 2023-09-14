@@ -81,7 +81,6 @@ img {
 .header-menu {
   display: flex;
   align-items: center;
-  gap: 24px;
   justify-content: center;
 }
 
@@ -255,6 +254,12 @@ img {
 }
 
 .team-list-title {
+  color: var(--headings-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
   text-align: center;
 }
 
