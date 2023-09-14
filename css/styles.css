@@ -146,10 +146,16 @@ img {
 
 .hero-section {
   padding: 188px 0;
-  background-color: rgba(46, 47, 66, 0.7);
-  background-image: url(/images/Hero-bg.jpg);
+  background-color: var(--headings-color);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/Hero-bg.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
