@@ -273,6 +273,10 @@ img {
   text-align: center;
 }
 
+.socials {
+  display: block;
+}
+
 /*Portfolio-section*/
 
 .portfolio-section {
