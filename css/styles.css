@@ -271,10 +271,30 @@ img {
 
 .team-text {
   text-align: center;
+  margin-bottom: 8px;
 }
 
-.socials {
-  display: block;
+.social-links {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.social-links .link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: var(--primary-brand-color);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.social-links .link:hover {
+  background-color: var(--active-button-color);
+}
+
+.social-links .icon {
+  fill: var(--bright_text-color);
 }
 
 /*Portfolio-section*/
