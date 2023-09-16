@@ -123,7 +123,7 @@ img {
   color: var(--active-button-color);
 }
 
-.nav-link-Studio {
+.nav-link-studio {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -135,7 +135,7 @@ img {
   color: var(--active-button-color);
 }
 
-.nav-link-Studio::after {
+.nav-link-studio::after {
   content: '';
   position: absolute;
   left: 0;
